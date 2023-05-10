@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <title>Flora</title>
+  <meta charset="utf-8">
+  <meta name="keywords" content="квіти, рослини, довідник" />
+  <meta name="author" content="Єлизавета Тимченко" />
+  <meta name="description" content="Про сайт" />
+  <meta name="Cache-Control" content="no-cache " />
+  <meta name="document-state" content="Dynamic" />
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0">
+  <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+
+<body class="page_content">
+  <div class="grid">
+    <header class="header">
+      <div id="logo" class="header__logo">
+        <p class="header__logo-text">Flora</p>
+      </div>
+      <div class="header__navbar">
+        <nav>
+          <a href="main.html">Головна</a>
+          <div class="header__dropdown">
+            <div class="header__dropdown-button">
+              <a>Статті</a>
+            </div>
+            <div class="header__dropdown-content">
+              <div class="header__nested-dropdown">
+                <div class="header__nested-dropdown-button">
+                  <a href="home_flowers.html">Кімнатні рослини</a>
+                </div>
+                <div class="header__nested-dropdown-content">
+                  <a href="bootstrap_page.html">Антуріум</a>
+                </div>
+              </div>
+              <a href="garden_flowers.html">Садові рослини</a>
+            </div>
+          </div>
+          <a class="header__current-page-button" href="about.html">Про нас</a>
+          <a href="effects.html">Ефекти</a>
+        </nav>
+      </div>
+    </header>
+    <main class="main_content">
+      <div class="main_padding"></div>
+      <div class="main_padding"></div>
+      <div class="main__content-text">
+        <p>Ви знаходитесь на ботанічному сайті-довіднику культурних рослин.</p>
+        <p>Тут ви можете дізнатись більше про садові та кімнатні рослини, догляд за ними, оформлення квіткових
+          композицій та багато іншого.</p>
+        <p>Ви також можете задати питання експертам скориставшись контактною формою.</p>
+      </div>
+      <div class="main_padding"></div>
+      <div class="about__first-container">
+        <div class="about__first-container-block">
+          <img alt="Contact us" src="images/contact_us.jpg" height="300">
+        </div>
+        <div class="about__first-container-block">
+          <div class="main__form">
+            <form class="main__form-object">
+              <p class="main__form-title"><b>Задати питання експертам</b></p>
+              <p class="main__form-text"><b>Введіть свої дані: дату заповнення форми, свій e-mail, телефон, URL
+                  статті, з приводу якої у
+                  вас виникло питання.</b></p>
+              <br>
+              <p class="main__form-text"><b>Час за Києвом: <span id="clock"></span></b></p>
+              <br>
+              <label class="main__form-labe" for="date-input">Дата:</label>
+              <input class="main__form-input" type="datetime-local" id="date-input" name="date" required>
+
+              <label class="main__form-labe" for="email-input">Email:</label>
+              <input class="main__form-input" type="email" id="email-input" name="email" required
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+
+              <label class="main__form-labe" for="tel-input">Телефон:</label>
+              <input class="main__form-input" type="tel" id="tel-input" name="tel" required pattern="[0-9]{10}">
+
+              <label class="main__form-labe" for="url-input">URL:</label>
+              <input class="main__form-input" type="url" id="url-input" name="url" required pattern="https?://.+">
+
+              <label class="main__form-labe" for="question-input">Питання:</label>
+              <input class="main__form-input" type="text" id="question-input" name="question"
+                placeholder="Введіть ваше питання" required minlength="1" maxlength="1000">
+
+              <input class="main__form-button" type="submit" value="Відправити">
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="main_padding"></div>
+      <script src="js/script.js"></script>
+
+    </main>
+  </div>
+  <footer class="footer">
+    <p class="footer__text">Flora by Yelyzaveta Tymchenko 2023</p>
+  </footer>
+</body>
+
+</html>

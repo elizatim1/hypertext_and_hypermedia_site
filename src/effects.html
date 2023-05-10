@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <title>Flora</title>
+  <meta charset="utf-8">
+  <meta name="keywords" content="ефекти" />
+  <meta name="author" content="Єлизавета Тимченко" />
+  <meta name="description" content="Цікаві ефекти" />
+  <meta name="Cache-Control" content="no-cache " />
+  <meta name="document-state" content="Dynamic" />
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0">
+  <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+
+<body class="page_content">
+  <div class="grid">
+    <header class="header">
+      <div id="logo" class="header__logo">
+        <h4 class="header__logo-text">Flora</h4>
+      </div>
+      <div class="header__navbar">
+        <nav>
+          <a href="main.html">Головна</a>
+          <div class="header__dropdown">
+            <div class="header__dropdown-button">
+              <a>Статті</a>
+            </div>
+            <div class="header__dropdown-content">
+              <div class="header__nested-dropdown">
+                <div class="header__nested-dropdown-button">
+                  <a href="home_flowers.html">Кімнатні рослини</a>
+                </div>
+                <div class="header__nested-dropdown-content">
+                  <a href="bootstrap_page.html">Антуріум</a>
+                </div>
+              </div>
+              <a href="garden_flowers.html">Садові рослини</a>
+            </div>
+          </div>
+          <a href="about.html">Про нас</a>
+          <a class="header__current-page-button" href="effects.html">Ефекти</a>
+        </nav>
+      </div>
+    </header>
+    <main class="main_content">
+      <div class="main_padding"></div>
+      <div class="main__content-text">
+        <p>Це не звичайна сторінка! На ній Ви можете подивитись приклади різних цікавих ефектів. Перший ефект - інший
+          розмір тексту на сторінці для елементів p.</p>
+        <br>
+        <p>Ще один приклад ефектів - текстовий годинник - можна побачити на сторінці <a href="about.html">Про нас</a></p>
+        <br>
+        <p>За допомогою кнопок нижче Ви зможете побачити текст різних розмірів</p>
+        <button onclick="changeFontSize('Це текст з розміром шрифту 16px', '16px')">16px</button>
+        <button onclick="changeFontSize('Це текст з розміром шрифту 20px', '20px')">20px</button>
+        <button onclick="changeFontSize('Це текст з розміром шрифту 24px', '24px')">24px</button>
+        <br>
+        <br>
+        <div id="text"></div>
+      </div>
+      <br>
+      <div class="main__content-text" id="content_with_effect">
+        <p>Тут можна побачити приклад ефекта поступового витирання.</p>
+        <p>Натисніть кнопку нижче, щоб почати ефект.</p>
+        <button onclick="startFadeOut()">Почати</button>
+      </div>
+      <img id="moving_image" src="images/flying_flower.png" alt="Small image">
+
+    </main>
+    <script src="js/script.js"></script>
+    <script src="js/change_font_size.js"></script>
+    <footer class="footer">
+      <p class="footer__text">Flora by Yelyzaveta Tymchenko 2023</p>
+    </footer>
+  </div>
+</body>
+
+</html>

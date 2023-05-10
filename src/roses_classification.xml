@@ -1,0 +1,97 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<botanical-info>
+    <heading>Троянди</heading>
+    <plant-information>
+        <plant-category name="wild">Природні види</plant-category>
+        <category-description category_id="1">
+            <p>Дикорослі види троянд називаються шпишинами.</p>
+            <p>Точне число видів шипшини поки ще не встановлено у зв'язку з тим, що ще не вироблені критерії для розрізнення надзвичайної безлічі перехідних форм. За сучасними оцінками різних авторів рід включає від 190 (Wissemann, 2003) до 400—500 (Хржановський, 1958, Бузунова, 2001) дикорослих видів.</p>
+            <p>Більшість видів шипшини родом з Азії, менше число — з Північної Америки, і лише деякі — з Європи та північно-західної Африки.</p>
+        </category-description>
+        <plant-list>
+            <plant id="1">
+                <plant-name value="plant1">Шипшина корична</plant-name> 
+                <plant-description value="plant1_description">Поширена на Поліссі і в Лісостепу. Кущ з сизувато-зеленими часто опушеними листками й характерним яблуневим запахом пагонів.</plant-description>
+                <plant-high value="plant1_high">до 2 м</plant-high>
+                <flower-diameter value="flower1_diameter">3-5 см</flower-diameter>
+                <plant-image type="img1">images/Wild_Rose1.jpg</plant-image>
+            </plant>
+            <plant id="2">
+                <plant-name value="plant2">Троянда зморшкувата</plant-name> 
+                <plant-description value="plant2_description"> Кущ з опушеними шипами і виразно зморшкуватими листками, поширений переважно в культурі.</plant-description>
+                <plant-high value="plant2_high">до 2 м</plant-high>
+                <flower-diameter value="flower2_diameter"> до 6–7 см</flower-diameter>
+                <plant-image type="img2"></plant-image>
+            </plant>
+            <plant id="3">
+                <plant-name value="plant3">Шипшина собача</plant-name> 
+                <plant-description value="plant3_description">Шипшина собача росте на всій території України на схилах, узліссях, уздовж доріг та на пустищах як бур'ян.</plant-description>
+                <plant-high value="plant3_high">1,5 — 2,5 м</plant-high>
+                <flower-diameter value="flower3_diameter"> до 5 см</flower-diameter>
+                <plant-image type="img3"></plant-image>
+            </plant>
+        </plant-list>  
+    </plant-information>
+    <plant-information>
+        <plant-category name="old">Старі садові троянди</plant-category>
+        <category-description category_id="2">
+            <p>Сорти, відомі до появи чайно-гібридних троянд (1867) і залишені без змін. </p>
+            <p>У цю групу входять троянди, що мають складне гібридне походження і втратили вигляд шипшин.</p>
+        </category-description>
+        <plant-list>
+            <plant id="4">
+                <plant-name value="plant4">Троянди Альба</plant-name> 
+                <plant-description value="plant4_description">Деякі білі троянди згадувалися Плінієм, передбачається, що це троянди альба,що були популярні серед європейських троянд наприкінці XVI століття, але відомі з XIV століття. Династія Йорків із Англії зробила троянду Альба своїм геральдичним символом.</plant-description>
+                <plant-high value="plant4_high">до 2,5 м</plant-high>
+                <flower-diameter value="plant4_diameter">5—8 см</flower-diameter>
+                <plant-image type="img4"></plant-image>
+            </plant>
+            <plant id="5">
+                <plant-name value="plant5">Дамаські троянди</plant-name> 
+                <plant-description value="plant5_description">Rosa damascena з давніх-давен вирощується в країнах Близького Сходу. До Європи завезена із Сирії у 1875 році. Різновид дамаської троянди - казанлицька троянда (Rosa damascenа var. trigintipetala), з пелюсток якої видобувають трояндову олію в Болгарії.</plant-description>
+                <plant-high value="plant5_high">150—180 см</plant-high>
+                <flower-diameter value="plant5_diameter">6—8 см</flower-diameter>
+                <plant-image type="img5"></plant-image>
+            </plant>
+            <plant id="6">
+                <plant-name value="plant6">Чайні троянди</plant-name> 
+                <plant-description value="plant6_description">Група сортів створена на основі вивезеної з Китаю в 1809 році запашної троянди (Rosa odorata). Чайні троянди отримали свою назву через аромат квіток, який асоціюється із запахом добірного чаю.</plant-description>
+                <plant-high value="plant6_high">50 см-2 м</plant-high>
+                <flower-diameter value="plant6_diameter">5-8 см</flower-diameter>
+                <plant-image type="img6"></plant-image>
+            </plant>
+        </plant-list> 
+    </plant-information>
+    <plant-information>
+        <plant-category name="new">Сучасні садові троянди</plant-category>
+        <category-description category_id="3">
+            <p>Дикорослі види троянд називаються шпишинами.</p>
+            <p>Точне число видів шипшини поки ще не встановлено у зв'язку з тим, що ще не вироблені критерії для розрізнення надзвичайної безлічі перехідних форм. За сучасними оцінками різних авторів рід включає від 190 (Wissemann, 2003) до 400—500 (Хржановський, 1958, Бузунова, 2001) дикорослих видів.</p>
+            <p>Більшість видів шипшини родом з Азії, менше число — з Північної Америки, і лише деякі — з Європи та північно-західної Африки.</p>
+        </category-description>
+        <plant-list>
+            <plant id="7">
+                <plant-name value="plant7">Чайно-гібридні троянди</plant-name> 
+                <plant-description value="plant7_description">У 1867 році в результаті схрещування ремонтантної та чайної троянд було отримано сорт 'La France'. Цей сорт вважається родоначальником класу чайногібридних троянд. Чайно-гібридні троянди одна з найпопулярніших груп серед сучасних троянд.</plant-description>
+                <plant-high value="plant7_high">60—100 см</plant-high>
+                <flower-diameter value="plant7_diameter">10—14 см</flower-diameter>
+                <plant-image type="img7"></plant-image>
+            </plant>
+            <plant id="8">
+                <plant-name value="plant8">Мініатюрні троянди</plant-name> 
+                <plant-description value="plant8_description"> Ввезені до Європи з Китаю 1810 року. Деякі автори відносять їх до карликової форми бенгальських троянд (Rosa indica bengalensis Pers). Зовні близькі до бенгальських, а також до поліантових троянд, але відрізняються від них дрібнішими квітками, листям і короткими пагонами.</plant-description>
+                <plant-high value="plant8_high">15—25 см</plant-high>
+                <flower-diameter value="plant8_diameter">1—2 см</flower-diameter>
+                <plant-image type="img8"></plant-image>
+            </plant>
+            <plant id="9">
+                 <plant-name value="plant9">Поліантові троянди</plant-name> 
+                <plant-description value="plant9_description">Отримані від схрещування карликової форми багатоквіткової троянди (Rosa multiflora Thunb) з повторно квітучими сортами чайних, чайно-гібридних та інших груп.</plant-description>
+                <plant-high value="plant9_high">30—40 см</plant-high>
+                <flower-diameter value="plant9_diameter">3—4 см</flower-diameter>
+                <plant-image type="img9"></plant-image>
+            </plant>
+        </plant-list> 
+    </plant-information>
+</botanical-info>
